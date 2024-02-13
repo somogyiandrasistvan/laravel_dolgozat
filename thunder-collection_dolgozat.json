@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "dolgozat",
+    "dateExported": "2024-02-13T09:39:45.082Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e90b8d95-bed6-45cf-818b-c7776671cab3",
+            "colId": "0af9dbaf-bc4f-44eb-b7f4-9a9f2a1f108a",
+            "containerId": "",
+            "name": "1. feladat",
+            "url": "http://localhost:8000/api/one_product_type/5",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-13T09:37:33.830Z",
+            "modified": "2024-02-13T09:37:42.355Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bf511f91-d8aa-475e-b4b4-3831606a2248",
+            "colId": "0af9dbaf-bc4f-44eb-b7f4-9a9f2a1f108a",
+            "containerId": "",
+            "name": "2. feladat",
+            "url": "http://localhost:8000/api/show_one_user_basket",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-13T09:37:48.347Z",
+            "modified": "2024-02-13T09:38:12.478Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "gizi@gmail.com",
+                    "password": "blabla"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "00a6a93b-2189-4218-b035-c26cf624dd78",
+            "colId": "0af9dbaf-bc4f-44eb-b7f4-9a9f2a1f108a",
+            "containerId": "",
+            "name": "3. feladat",
+            "url": "http://localhost:8000/api/put_item/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-13T09:38:19.259Z",
+            "modified": "2024-02-13T09:38:58.258Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "gizi@gmail.com",
+                    "password": "blabla"
+                }
+            },
+            "tests": []
+        }
+    ]
+}
